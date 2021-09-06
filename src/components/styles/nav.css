@@ -1,0 +1,96 @@
+/* navigation */
+
+
+
+.nav__list {
+    display: flex;
+}
+
+.nav__item {
+    position: relative;
+}
+
+.nav__item:hover.nav__link {
+    background-color: #FB451E;
+}
+
+.nav__link:hover{
+    background-color: #FB451E;
+}
+
+.nav__item:hover> .subnav{
+    display: block;
+}
+
+
+.nav__link {
+    display: block;
+    
+    font-size: 1.1rem;
+    line-height: 1.2;
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+    
+    padding: 1.35rem;
+    
+    transition: background-color .2s linear;
+}
+
+
+
+
+.nav__link.has-subnav {
+    position: relative;
+    padding-right: 3.5rem;
+}
+
+.nav__link.has-subnav:after {
+    content: "";
+    display: block;
+    margin-top: 2px;
+    
+    border-style: solid;
+    border-width: 6px 5px 0 5px;
+    border-color: white transparent transparent transparent;
+    
+    
+    position: absolute;
+    top: 50%;
+    right: 1.35rem;
+    transform: translateY(-50%)
+}
+
+.subnav {
+    display: none;
+    
+    padding: .5rem;
+    width: 17.3rem;
+    
+    background-color: #0D0D0D;
+    border-radius: 0 0 5px 5px;
+    box-shadow: 0 6px 8px rgba(black, .2);
+    
+    position: absolute;
+    top: 100%;
+    left: 0;
+}
+
+.subnav__link {
+    display: block;
+    padding: .45rem 1.2rem;
+    
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    
+    font-size: 1.1rem;
+    line-height: 1.2;
+    
+    transition: background-color .2s ease-in-out; 
+
+}
+
+.subnav__link:hover{
+    background-color: #ff390d;
+}

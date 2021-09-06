@@ -1,0 +1,37 @@
+/* search  */
+
+.search {
+    max-width: 21rem;
+    width: 100%;
+    background-color: #202020;
+}
+
+.search__input {
+    display: block;
+    width: 100%;
+    
+    
+    padding: 1.2rem 2rem;
+    margin-top: 14px;
+    background: none;
+    border: none;
+    
+    font-family: inherit;
+    font-size: 1.2rem;
+    color: white;
+}
+
+.search__input::placeholder {
+    color: rgba(white, .4);
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    padding-inline-start: 0;
+}
+
+.social__item {
+    margin: 0 .75rem;
+    
+}

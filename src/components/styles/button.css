@@ -1,0 +1,51 @@
+/* button  */
+
+.btn {
+    display: inline-block;
+    vertical-align: top;
+    padding: 1.12em 2.1em;
+    
+   
+    border: none;
+    cursor: pointer;
+    border-radius: 3em;
+    
+    
+    
+    font-family: inherit;
+    font-size: 1.2rem;
+    line-height: 1.1;
+    font-weight: 500;
+    color: white;
+    text-decoration: none;
+    transition: background-color .2s linear;
+}
+
+
+.btn--sm {
+    padding: .71em 1.25em;
+}
+
+
+.btn--red{
+    background-color: #D6A178;
+    box-shadow: 0 7px 17px -10px rgba(#D6A178, .3);
+    
+}
+
+.btn--red:hover {
+    background-color: #c48352;
+}
+
+.btn--blue{
+    background-color: #FB451E;
+    box-shadow: 0 7px 17px -10px rgba(#FB451E, .3);
+}
+
+.btn--blue:hover {
+    background-color:#be3314;
+}
+
+.btn--rounded {
+    border-radius: 0.41em;
+}

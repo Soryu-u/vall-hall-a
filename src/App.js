@@ -1,24 +1,49 @@
-import logo from './logo.svg';
-import './App.css';
+import Header from './components/Header';
+import Sidebar from './components/Sidebar';
+import Stories from './components/stories';
+import AddPost from './components/AddPost';
+import CommonPost from './components/CommonPost';
+import PhotoPost from './components/PhotoPost';
+import VideoPost from './components/VideoPost';
+import PhotoPost2 from './components/PhotoPost2';
+import Pagination from './components/Pagination';
+
+
+import './components/styles/App.css';
+import './components/styles/button.css';
+import './components/styles/stories.css';
+import './components/styles/AddPost.css';
+import './components/styles/AddPost.css';
+import './components/styles/post.css';
+import './components/styles/video.css';
+import './components/styles/pagination.css';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div class="page">
+
+      <Header />
+
+      <div class="main">
+
+        <div class="container">
+
+          <Sidebar />
+          <Stories />
+          <AddPost />
+          <CommonPost />
+          <PhotoPost />
+          <VideoPost />
+          <PhotoPost2 />
+          <Pagination />
+
+        </div>
+
+      </div>
+
     </div>
+
   );
 }
 
