@@ -8,7 +8,8 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link
+  Link,
+  Redirect
 } from "react-router-dom";
 
 
@@ -94,30 +95,15 @@ function App() {
 
 
             <Switch>
-              <Route path="/pic_cats">
-                <Pic_cats />
-              </Route>
-              <Route path="/cats">
-                <Cats />
-              </Route>
-              <Route path="/meme_cats">
-                <Meme_cats />
-              </Route>
-              <Route path="/uwu_cats">
-                <Uwu_cats />
-              </Route>
-              <Route path="/paint_cats">
-                <Paint_cats />
-              </Route>
-              <Route path="/hearts">
-                <Hearts />
-              </Route>
-              <Route path="/profile">
-                <Profile />
-              </Route>
-              <Route path="/">
-                <Home />
-              </Route>
+              <Route exact path="/" component={Home} />
+              <Route path="/pic_cats" component={Pic_cats} />
+              <Route path="/cats" component={Cats} />
+              <Route path="/meme_cats" component={Meme_cats} />
+              <Route path="/uwu_cats" component={Uwu_cats} />
+              <Route path="/paint_cats" component={Paint_cats} />
+              <Route path="/hearts" component={Hearts} />
+              <Route path="/profile" component={Profile} />
+              <Redirect to="/" />
             </Switch>
 
 
@@ -125,7 +111,7 @@ function App() {
           </div>
 
         </div>
-      </Router>
+      </Router >
 
 
     </div >
