@@ -186,8 +186,13 @@
 
 .post__data-item>a {
     text-decoration: none;
-    color: white;
+    color: rgb(170, 169, 169);
 }
+
+.post__data-item>a:hover{
+    text-decoration: underline;
+}
+
 
 .post__data-item:not(:last-child):after{
     content: "";

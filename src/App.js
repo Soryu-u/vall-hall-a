@@ -1,5 +1,6 @@
 import Sidebar from './components/Sidebar';
 import Home from './components/Home'
+import Profile from './components/Profile';
 import Post from './components/Post';
 
 
@@ -22,6 +23,7 @@ import './components/styles/pagination.css';
 import "./components/styles/header.css"
 import "./components/styles/nav.css"
 import "./components/styles/search.css"
+import "./components/styles/cabinet.css"
 import "./components/styles/comments.css"
 import "./components/styles/form.css"
 
@@ -70,7 +72,7 @@ function App() {
             <div class="nav">
               <ul class="nav__list">
                 <li class="nav__item">
-                  <a class="nav__link" href="./profile.html">Профиль</a>
+                  <Link class="nav__link" to="/profile">Профиль</Link>
                 </li>
                 <li class="nav__item">
                   <a class="nav__link" href="#">Выйти</a>
@@ -109,6 +111,9 @@ function App() {
               </Route>
               <Route path="/hearts">
                 <Hearts />
+              </Route>
+              <Route path="/profile">
+                <Profile />
               </Route>
               <Route path="/">
                 <Home />

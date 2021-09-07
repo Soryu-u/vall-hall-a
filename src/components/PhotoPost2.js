@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 import postPrev from "./img/photo-4.jpg"
 
@@ -47,7 +48,7 @@ export default function PhotoPost2() {
                     </li>
                 </ul>
 
-                <a class="post__read" href="#">oткрыть пост</a>
+                <Link class="post__read" to={{ pathname: './Post.js' }}>oткрыть пост</Link>
             </div>
         </article>
     )
