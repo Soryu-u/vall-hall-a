@@ -83,15 +83,15 @@ function App() {
           <div class="container">
 
             <Sidebar />
+
+
+
             <Switch>
               <Route path="/pic_cats">
                 <Pic_cats />
               </Route>
               <Route path="/cats">
                 <Cats />
-              </Route>
-              <Route path="/">
-                <Home />
               </Route>
               <Route path="/meme_cats">
                 <Meme_cats />
@@ -104,6 +104,9 @@ function App() {
               </Route>
               <Route path="/hearts">
                 <Hearts />
+              </Route>
+              <Route path="/">
+                <Home />
               </Route>
             </Switch>
 
