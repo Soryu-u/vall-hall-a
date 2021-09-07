@@ -1,3 +1,5 @@
+import React, { useState } from 'react';
+
 import Sidebar from './components/Sidebar';
 import Home from './components/Home'
 import Profile from './components/Profile';
@@ -120,27 +122,45 @@ function App() {
 
 
 function Pic_cats() {
-  return <h2>Pic_cats</h2>;
+  return (
+    <h2>Pic_cats</h2>
+  );
 }
 
 function Cats() {
-  return <h2>Cats</h2>;
+  return (
+    <h2>Cats</h2>
+  );
 }
 
 function Meme_cats() {
-  return <h2>Meme_cats</h2>;
+  return (
+    <h2>Meme_cats</h2>
+  );
 }
 
 function Uwu_cats() {
-  return <h2>Uwu_cats</h2>;
+  return (
+    <h2>Uwu_cats</h2>
+  );
 }
 
 function Paint_cats() {
-  return <h2>Paint_cats</h2>;
+  return (
+    <h2>Paint_cats</h2>
+  );
 }
 
 function Hearts() {
-  return <h2>Hearts</h2>;
+  const [count, setCount] = useState(0);
+  return (
+    <div>
+      <p>❤ Вы добавили {count} сердечек ❤</p>
+      <button class="btn btn--blue" onClick={() => setCount(count + 1)}>
+        Добавить сердечко ❤
+      </button>
+    </div>
+  );
 }
 
 
