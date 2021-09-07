@@ -115,7 +115,7 @@ function App() {
               </Route>
             </Switch>
 
-            <Post />
+            {/* <Post /> */}
 
           </div>
 
