@@ -36,8 +36,8 @@ function App() {
     <div class="page">
       <Router>
         <div class="header">
-          <div class="header__left">
 
+          <div class="header__left">
             <div class="nav">
               <ul class="nav__list">
                 <li class="nav__item">
@@ -65,10 +65,9 @@ function App() {
                   <Link class="nav__link" to="/hearts">Сердечки</Link>
                 </li>
               </ul>
-
             </div>
-
           </div>
+
           <div class="header__right">
             <div class="nav">
               <ul class="nav__list">
@@ -84,10 +83,10 @@ function App() {
               <input class="search__input" type="text" placeholder="Найти котиков" />
             </form>
           </div>
+
         </div>
 
         <div class="main">
-
           <div class="container">
 
             <Sidebar />
@@ -109,11 +108,8 @@ function App() {
 
             <Main />
           </div>
-
         </div>
       </Router >
-
-
     </div >
 
   );
