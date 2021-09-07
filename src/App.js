@@ -1,5 +1,6 @@
 import Sidebar from './components/Sidebar';
 import Home from './components/Home'
+import Post from './components/Post';
 
 
 import {
@@ -21,6 +22,10 @@ import './components/styles/pagination.css';
 import "./components/styles/header.css"
 import "./components/styles/nav.css"
 import "./components/styles/search.css"
+import "./components/styles/comments.css"
+import "./components/styles/form.css"
+
+
 
 
 function App() {
@@ -110,11 +115,14 @@ function App() {
               </Route>
             </Switch>
 
+            <Post />
 
           </div>
 
         </div>
       </Router>
+
+
     </div >
 
   );

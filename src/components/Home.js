@@ -11,18 +11,6 @@ import Pagination from './Pagination';
 
 
 
-
-
-import "./styles/header.css"
-import "./styles/nav.css"
-import "./styles/search.css"
-import "./styles/App.css"
-
-
-
-
-
-
 export default function Home() {
     return (
         <div>

@@ -1,0 +1,90 @@
+/* form  */
+
+
+.form__group {
+    position: relative;
+    margin-bottom: 1.5rem;
+}
+
+.form__group--md{
+    margin-bottom: 2.5rem;
+}
+
+.form__control {
+    display: block;
+    width: 100%;
+    padding: .5rem 0 .75rem;
+    
+    background: none;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    border-bottom: 1px solid #3f3f3f;
+    
+    font-family: inherit;
+    font-size: 14px;
+    color: white;
+}
+
+.form__control::placeholder{
+    color: rgba(white, .2);
+}
+
+.form__control:focus + .form__line{
+    width: 100%;
+}
+
+.form__control--textarea{
+    height: 35px;
+    overflow: hidden;
+    resize: none;
+}
+
+
+.form__line {
+    
+    width: 0;
+    height: 1px;
+    
+    background-color: #FB451E;
+    
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 1;
+        
+    transition: width .2s linear;
+}
+
+
+.form--auth {
+    min-width: 28rem;
+    margin: 0 auto;
+}
+
+
+/* .form__footer{
+
+} */
+
+
+.form__footer--center{
+    text-align: center;
+}
+
+
+.form__footer-list {
+    display: flex;
+    justify-content: center;
+    padding-left: 0;
+
+    font-size: 1.2rem;
+    line-height: 1.2rem;
+}
+
+.form__footer-list>li {
+    margin: 0 .5rem;
+}
+.form__footer-list>li>a {
+    color: white;
+}
