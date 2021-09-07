@@ -1,7 +1,7 @@
 import Sidebar from './components/Sidebar';
 import Home from './components/Home'
 import Profile from './components/Profile';
-import Post from './components/Post';
+import Main from './components/Main';
 
 
 import {
@@ -120,8 +120,8 @@ function App() {
               </Route>
             </Switch>
 
-            {/* <Post /> */}
 
+            <Main />
           </div>
 
         </div>
