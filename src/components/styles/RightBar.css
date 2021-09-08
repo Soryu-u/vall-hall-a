@@ -1,0 +1,27 @@
+.right-bar{
+    position: fixed;
+
+    width: 300px;
+    height: 100%;
+
+    top: 40px;
+    right: 0;
+
+
+    background-color: #1a1a1a;
+    box-shadow: 0 0 10px rgb(20, 20, 20);
+}
+
+.rb-content {
+    text-align: center;
+
+    padding: 25px;
+}
+
+.spotify{
+    padding-top: 20px;
+    width: 100%; 
+    height: 500px;
+
+    position: relative;
+}

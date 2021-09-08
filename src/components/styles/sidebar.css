@@ -6,7 +6,7 @@
     height: 100vh;
     
     background-color: #202020;
-    box-shadow: 5px 0 15px rgba(#050505, .1);
+    box-shadow: 1px 0 10px #1d1d1d;
     
     position: fixed;
     top: 0;

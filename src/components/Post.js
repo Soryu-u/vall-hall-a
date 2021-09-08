@@ -9,37 +9,37 @@ import Elza from "./img/elza.jpg"
 
 export default function Post() {
     return (
-        <article class="post">
+        <article className="post">
 
-            <div class="post__actions">
+            <div className="post__actions">
                 <a href="index.html">вернуться назад</a>
                 <a href="#">
-                    поделиться<img class="post__actions-icon" src={share} alt="поделиться" />
+                    поделиться<img className="post__actions-icon" src={share} alt="поделиться" />
                 </a>
             </div>
 
 
 
 
-            <div class="post__header  post__header--open">
-                <h1 class="post__title  post__title--mb0">
+            <div className="post__header  post__header--open">
+                <h1 className="post__title  post__title--mb0">
                     Как делают котики?
                 </h1>
 
-                <ul class="post__data">
-                    <li class="post__data-item">
+                <ul className="post__data">
+                    <li className="post__data-item">
                         <time datetime="2020-11-23 12:23">23.11.2020</time>
                     </li>
-                    <li class="post__data-item">
+                    <li className="post__data-item">
                         <a href="#">из жизни котиков</a>
                     </li>
                 </ul>
             </div>
 
-            <div class="post__content">
+            <div className="post__content">
 
 
-                <div class="post__text">
+                <div className="post__text">
                     <h2>Итак, котики!</h2>
                     <p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum
                         является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий
@@ -82,68 +82,68 @@ export default function Post() {
                 </div>
 
 
-                <div class="comments">
-                    <h3 class="comments__title">Комментарии</h3>
+                <div className="comments">
+                    <h3 className="comments__title">Комментарии</h3>
 
                     <form action="/" method="post">
-                        <div class="form__group">
-                            <textarea class="form__control  form__control--textarea" name="comment-text"
+                        <div className="form__group">
+                            <textarea className="form__control  form__control--textarea" name="comment-text"
                                 placeholder="Текст комментария" data-autoresize></textarea>
-                            <span class="form__line"></span>
+                            <span className="form__line"></span>
                         </div>
-                        <button class="btn  btn--blue  btn--rounded  btn--sm" type="submit">Отправить</button>
+                        <button className="btn  btn--blue  btn--rounded  btn--sm" type="submit">Отправить</button>
                     </form>
                 </div>
 
 
-                <ul class="comments__block">
-                    <li class="comments__item">
-                        <div class="comments__header">
-                            <img class="comments__avatar" src={ElAvatar} href="#" alt="" />
-                            <div class="comments__author">
-                                <div class="comments__name"><a class="comments__name" href="#">EternalEl</a>
+                <ul className="comments__block">
+                    <li className="comments__item">
+                        <div className="comments__header">
+                            <img className="comments__avatar" src={ElAvatar} href="#" alt="" />
+                            <div className="comments__author">
+                                <div className="comments__name"><a className="comments__name" href="#">EternalEl</a>
                                 </div>
-                                <time class="comments__pudate" datetime="2020-12-21 12:46">Вчера</time>
+                                <time className="comments__pudate" datetime="2020-12-21 12:46">Вчера</time>
                             </div>
                         </div>
-                        <div class="comments__text">
+                        <div className="comments__text">
                             Крутые котики!!!
                         </div>
-                        <button class="comments__replay" type="button">ответить</button>
+                        <button className="comments__replay" type="button">ответить</button>
 
-                        <ul class="comments__block">
-                            <li class="comments__item">
-                                <div class="comments__header">
-                                    <img class="comments__avatar" href="#" src={avatar}
+                        <ul className="comments__block">
+                            <li className="comments__item">
+                                <div className="comments__header">
+                                    <img className="comments__avatar" href="#" src={avatar}
                                         alt="" />
-                                    <div class="comments__author">
-                                        <div class="comments__name"><a class="comments__name"
+                                    <div className="comments__author">
+                                        <div className="comments__name"><a className="comments__name"
                                             href="#">Szpáku</a>
                                         </div>
-                                        <time class="comments__pudate" datetime="2020-12-21 12:46">Вчера</time>
+                                        <time className="comments__pudate" datetime="2020-12-21 12:46">Вчера</time>
                                     </div>
                                 </div>
-                                <div class="comments__text">
+                                <div className="comments__text">
                                     Ну а как же иначе!
                                 </div>
-                                <button class="comments__replay" type="button">ответить</button>
+                                <button className="comments__replay" type="button">ответить</button>
                             </li>
                         </ul>
                     </li>
 
 
-                    <li class="comments__item">
-                        <div class="comments__header">
-                            <img class="comments__avatar" src={Elza} href="#" alt="" />
-                            <div class="comments__author">
-                                <div class="comments__name"><a class="comments__name" href="#">Elza</a></div>
-                                <time class="comments__pudate" datetime="2020-12-21 12:46">Позавчера</time>
+                    <li className="comments__item">
+                        <div className="comments__header">
+                            <img className="comments__avatar" src={Elza} href="#" alt="" />
+                            <div className="comments__author">
+                                <div className="comments__name"><a className="comments__name" href="#">Elza</a></div>
+                                <time className="comments__pudate" datetime="2020-12-21 12:46">Позавчера</time>
                             </div>
                         </div>
-                        <div class="comments__text">
+                        <div className="comments__text">
                             Зачёт!
                         </div>
-                        <button class="comments__replay" type="button">ответить</button>
+                        <button className="comments__replay" type="button">ответить</button>
                     </li>
                 </ul>
             </div>

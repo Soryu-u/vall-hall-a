@@ -29,67 +29,68 @@ import "./components/styles/search.css"
 import "./components/styles/cabinet.css"
 import "./components/styles/comments.css"
 import "./components/styles/form.css"
+import "./components/styles/RightBar.css"
 
 
 
 
 function App() {
   return (
-    <div class="page">
+    <div className="page">
       <Router>
-        <div class="header">
+        <div className="header">
 
-          <div class="header__left">
-            <div class="nav">
-              <ul class="nav__list">
-                <li class="nav__item">
-                  <Link class="nav__link" to="/">Главная</Link>
+          <div className="header__left">
+            <div className="nav">
+              <ul className="nav__list">
+                <li className="nav__item">
+                  <Link className="nav__link" to="/">Главная</Link>
                 </li>
-                <li class="nav__item">
-                  <Link class="nav__link" to="/pic_cats">Картинки с котиками</Link>
+                <li className="nav__item">
+                  <Link className="nav__link" to="/pic_cats">Картинки с котиками</Link>
                 </li>
-                <li class="nav__item">
-                  <Link class="nav__link has-subnav" to="/cats">Котики</Link>
+                <li className="nav__item">
+                  <Link className="nav__link has-subnav" to="/cats">Котики</Link>
 
-                  <ul class="subnav">
+                  <ul className="subnav">
                     <li>
-                      <Link class="subnav__link" to="/meme_cats">Мемные котики</Link>
+                      <Link className="subnav__link" to="/meme_cats">Мемные котики</Link>
                     </li>
                     <li>
-                      <Link class="subnav__link" to="/uwu_cats">Милые котики</Link>
+                      <Link className="subnav__link" to="/uwu_cats">Милые котики</Link>
                     </li>
                     <li>
-                      <Link class="subnav__link" to="/paint_cats">Нарисованные котики</Link>
+                      <Link className="subnav__link" to="/paint_cats">Нарисованные котики</Link>
                     </li>
                   </ul>
                 </li>
-                <li class="nav__item">
-                  <Link class="nav__link" to="/hearts">Сердечки</Link>
+                <li className="nav__item">
+                  <Link className="nav__link" to="/hearts">Сердечки</Link>
                 </li>
               </ul>
             </div>
           </div>
 
-          <div class="header__right">
-            <div class="nav">
-              <ul class="nav__list">
-                <li class="nav__item">
-                  <Link class="nav__link" to="/profile">Профиль</Link>
+          <div className="header__right">
+            <div className="nav">
+              <ul className="nav__list">
+                <li className="nav__item">
+                  <Link className="nav__link" to="/profile">Профиль</Link>
                 </li>
-                <li class="nav__item">
-                  <a class="nav__link" href="#">Выйти</a>
+                <li className="nav__item">
+                  <a className="nav__link" href="#">Выйти</a>
                 </li>
               </ul>
             </div>
-            <form class="search" action="/" method="post">
-              <input class="search__input" type="text" placeholder="Найти котиков" />
+            <form className="search" action="/" method="post">
+              <input className="search__input" type="text" placeholder="Найти котиков" />
             </form>
           </div>
 
         </div>
 
-        <div class="main">
-          <div class="container">
+        <div className="main">
+          <div className="container">
 
             <Sidebar />
 
@@ -157,7 +158,7 @@ function Hearts() {
   return (
     <div>
       <p>❤ Вы добавили {count} сердечек ❤</p>
-      <button class="btn btn--blue" onClick={() => setCount(count + 1)}>
+      <button className="btn btn--blue" onClick={() => setCount(count + 1)}>
         Добавить сердечко ❤
       </button>
     </div>

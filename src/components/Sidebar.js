@@ -12,38 +12,38 @@ import "./styles/App.css"
 
 export default function Sidebar() {
     return (
-        <aside class="sidebar">
+        <aside className="sidebar">
 
-            <div class="sidebar__header">
+            <div className="sidebar__header">
                 <img src={sidebarHeader} alt={"sidebarHeader"} />
             </div>
 
-            <div class="sidebar__content">
-                <div class="profile">
+            <div className="sidebar__content">
+                <div className="profile">
 
-                    <img class="profile__avatar" src={avatar} alt={"avatar"} />
-                    <div class="profile__name">Szpáku</div>
-                    <div class="profile__prof">Лисичка-токсичка</div>
+                    <img className="profile__avatar" src={avatar} alt={"avatar"} />
+                    <div className="profile__name">Szpáku</div>
+                    <div className="profile__prof">Лисичка-токсичка</div>
 
-                    <ul class="social">
-                        <li class="social__item">
-                            <a class="social__link" href="https://twitter.com/SoryuuChan" target="_blank">
-                                <img class="social__twitter" src={twitter} alt={"Twitter"} />
+                    <ul className="social">
+                        <li className="social__item">
+                            <a className="social__link" href="https://twitter.com/SoryuuChan" target="_blank">
+                                <img className="social__twitter" src={twitter} alt={"Twitter"} />
                             </a>
                         </li>
-                        <li class="social__item">
-                            <a class="social__link" href="https://vk.com/solo7" target="_blank">
-                                <img class="social__twitter" src={vk} alt={"ВКонтакте"} />
+                        <li className="social__item">
+                            <a className="social__link" href="https://vk.com/solo7" target="_blank">
+                                <img className="social__twitter" src={vk} alt={"ВКонтакте"} />
                             </a>
                         </li>
-                        <li class="social__item">
-                            <a class="social__link" href="https://www.instagram.com/soryu_u/" target="_blank">
-                                <img class="social__twitter" src={insta} alt={"instagram"} />
+                        <li className="social__item">
+                            <a className="social__link" href="https://www.instagram.com/soryu_u/" target="_blank">
+                                <img className="social__twitter" src={insta} alt={"instagram"} />
                             </a>
                         </li>
                     </ul>
 
-                    <div class="profile__text">
+                    <div className="profile__text">
                         <p>
                             wake the fuck up, dude <br />
                             we have a twitter to burn
@@ -53,9 +53,9 @@ export default function Sidebar() {
                 </div>
             </div>
 
-            <div class="sidebar__footer">
-                <a class="btn   btn--red" href="#">Погладить :3</a>
-                <button class="btn   btn--blue" type="button" data-modal="contact-modal">Написать</button>
+            <div className="sidebar__footer">
+                <a className="btn   btn--red" href="#">Погладить :3</a>
+                <button className="btn   btn--blue" type="button" data-modal="contact-modal">Написать</button>
             </div>
 
         </aside>

@@ -8,12 +8,14 @@ import PhotoPost from './PhotoPost';
 import VideoPost from './VideoPost';
 import PhotoPost2 from './PhotoPost2';
 import Pagination from './Pagination';
+import RightBar from './RightBar';
 
 
 
 export default function Home() {
     return (
         <div>
+            <RightBar />
             <Stories />
             <AddPost />
             <CommonPost />
