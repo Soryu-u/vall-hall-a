@@ -1,5 +1,5 @@
 import React from "react";
-import avatar from "./img/avatar.jpg"
+import avatar from "./img/avatarHeader.gif"
 import insta from "./img/insta.png"
 import vk from "./img/vk.png"
 import twitter from "./img/twitter.png"
@@ -22,8 +22,8 @@ export default function Sidebar() {
                 <div className="profile">
 
                     <img className="profile__avatar" src={avatar} alt={"avatar"} />
-                    <div className="profile__name">Szpáku</div>
-                    <div className="profile__prof">Лисичка-токсичка</div>
+                    <div className="profile__name">VA11-hall-A</div>
+                    <div className="profile__prof">Добро пожаловать. Снова</div>
 
                     <ul className="social">
                         <li className="social__item">
@@ -45,8 +45,8 @@ export default function Sidebar() {
 
                     <div className="profile__text">
                         <p>
-                            wake the fuck up, dude <br />
-                            we have a twitter to burn
+                            оставь надежду <br />
+                            всяк сюда входящий
                         </p>
                     </div>
 
@@ -54,7 +54,7 @@ export default function Sidebar() {
             </div>
 
             <div className="sidebar__footer">
-                <a className="btn   btn--red" href="#">Погладить :3</a>
+                <a className="btn   btn--red" href="#">Присоединиться</a>
                 <button className="btn   btn--blue" type="button" data-modal="contact-modal">Написать</button>
             </div>
 

@@ -44,13 +44,13 @@ function App() {
             <div className="nav">
               <ul className="nav__list">
                 <li className="nav__item">
-                  <Link className="nav__link" to="/">Главная</Link>
+                  <Link className="nav__link " to="/">Главная</Link>
                 </li>
                 <li className="nav__item">
-                  <Link className="nav__link" to="/pic_cats">Картинки с котиками</Link>
+                  <Link className="nav__link" to="/pic_cats">Наша галерея</Link>
                 </li>
                 <li className="nav__item">
-                  <Link className="nav__link has-subnav" to="/cats">Котики</Link>
+                  <Link className="nav__link has-subnav" to="/cats">Котики (котики?)</Link>
 
                   <ul className="subnav">
                     <li>

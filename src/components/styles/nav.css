@@ -1,5 +1,10 @@
 /* navigation */
 
+.link_active{
+    border: 2px solid transparent; 
+    border-bottom: 2px solid #FB451E;
+}
+
 
 
 .nav__list {
