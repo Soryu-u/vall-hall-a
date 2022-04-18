@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 
-import Sidebar from './components/Sidebar';
+import Sidebar from './components/sidebar/Sidebar';
 import Home from './components/Home'
-import Profile from './components/Profile';
-import Main from './components/Main';
+import Profile from './components/profile/Profile';
+import Main from './components/main/Main';
 
 
 import {

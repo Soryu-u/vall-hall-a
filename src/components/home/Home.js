@@ -2,12 +2,12 @@ import React from "react";
 
 
 import Stories from './stories';
-import AddPost from './AddPost';
-import CommonPost from './CommonPost';
-import PhotoPost from './PhotoPost';
-import VideoPost from './VideoPost';
-import PhotoPost2 from './PhotoPost2';
-import Pagination from './Pagination';
+import AddPost from './addPost/AddPost';
+import CommonPost from './commonPost/CommonPost';
+import PhotoPost from './photoPost/PhotoPost';
+import VideoPost from './videoPost/VideoPost';
+import PhotoPost2 from './photoPost2/PhotoPost2';
+import Pagination from './pagination/Pagination';
 import RightBar from './RightBar';
 
 
