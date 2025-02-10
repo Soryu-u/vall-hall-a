@@ -32,11 +32,6 @@ export default function Sidebar() {
                             </a>
                         </li>
                         <li className="social__item">
-                            <a className="social__link" href="https://vk.com/solo7" target="_blank">
-                                <img className="social__twitter" src={vk} alt={"ВКонтакте"} />
-                            </a>
-                        </li>
-                        <li className="social__item">
                             <a className="social__link" href="https://www.instagram.com/soryu_u/" target="_blank">
                                 <img className="social__twitter" src={insta} alt={"instagram"} />
                             </a>
